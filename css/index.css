@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.practicando{
+    color: blueviolet;
+}
+
+.subtitle{
+    font-style: italic;
+}
+    .card{
+        background-color: #b32aee;
+        border: 7px dashed #6e1b92;
+        padding: 1%;
+        margin: 1%;
+        text-align: center;
+        
+
+    }
+    .cardA :hover{
+        background-color: #573792;
+        border: 7px dashed #573792;
+    }
+     
+    
+    .card2{
+        background-color: #794dc9;
+        border: 7px dashed #573792;
+        padding: 1%;
+        margin: 1%;
+        text-align: center;
+    }
+
+.contenedorLimite{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 10%;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+}
+
+.article {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 10%;
+    text-align: justify;
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap;
+}
+.article img {
+    width: 70%;
+}
+
+header{
+    background-color: aliceblue;
+    
+}
+
+nav li {
+    display:inline;
+}
+
+body{
+    background-color: #e5ccf0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-style:italic;
+    color: blueviolet;
+    font-family: "Dancing Script", cursive;
+    font-size: 590%;
+    
+    
+}
+
+h2{
+    color: blueviolet;
+    font-size: 130%;
+}
+
+nav ul :hover{
+    color: rgb(81, 9, 248);
+    font-size: 110%;
+    stroke: #573792;
+    
+}
+footer{
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        flex-direction: column;
+        align-items: start;
+    }
+    nav ul {
+        display:block;
+        
+    }
+   
+    h1 {
+        font-size: 350%;
+    }
+}
+
+.grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 22px;
+    grid-row-gap: 11px;     
+    }
+    
+    .cardA { 
+        grid-area: 1 / 1 / 2 / 3;
+        background-color: #b32aee;
+        border: 7px dashed #6e1b92;
+        padding: 1%;
+        margin: 1%;
+        text-align: center;
+     }
+    .cardA img{
+        width: 100%;
+
+    }
+    .cardB {
+        grid-area: 1 / 3 / 2 / 4;
+        background-color: #b32aee;
+        border: 7px dashed #6e1b92;
+        padding: 1%;
+        margin: 1%;
+        text-align: center;
+         }
+    .cardB img{
+        width: 100%;
+         }
+         
+    .cardC {
+        grid-area: 2 / 1 / 3 / 3;
+        background-color: #b32aee;
+        border: 7px dashed #6e1b92;
+        padding: 1%;
+        margin: 1%;
+        text-align: center;
+         }
+
+    .cardC img{
+        width: 100%;
+        }
+
+   .cardD {
+        grid-area: 2 / 3 / 3 / 4;
+        background-color: #b32aee;
+        border: 7px dashed #6e1b92;
+        padding: 1%;
+        margin: 1%;
+        text-align: center;
+         }
+    
+    .cardD img{
+        width: 100%;
+              }
+
+ 
